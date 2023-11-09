@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+This data appears to represent the stock information for five different companies, including their stock symbols, company names, current prices, price changes, and percentage changes. It is commonly used for displaying stock market information and tracking the performance of these companies' stocks in a financial context
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```markdown
+# Stock Price Chart App
 
-## Available Scripts
+Author: Manish Chandrakar
+Email: manishchandrakar2001@gmail.com
+LinkedIn: [Manish Chandrakar](https://www.linkedin.com/in/manish-chandrakar-23392b183/)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This is a React.js application that displays a stock price chart based on data provided in the "stocks.json" file. The chart is created using the Chart.js library.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+   ```bash
+   git clone <repository_url>
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
 
-### `npm run build`
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Open your browser and access the application at [http://localhost:3000](http://localhost:3000).
 
-### `npm run eject`
+## Data Source
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The stock price data is loaded from the "stocks.json" file. You can find the data in the "public" directory. If you want to see screenshots of the application, you can visit the "public/screenshots" directory.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Upon starting the application, you will see a line chart displaying the stock prices.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. The chart shows the historical prices of the selected stocks.
 
-## Learn More
+3. You can hover over the chart to view detailed information about specific data points.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot 1](public/screenshots/Data.png)
+![Screenshot 2](public/screenshots/Graph.png)
+![Screenshot 3](public/screenshots/Responsive.png)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React.js
+- react-chartjs-2
+- Chart.js
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is open-source and available under the [MIT License](LICENSE).
+```
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Replace `<repository_url>` with the actual URL of your repository. You can also add more information or customize the README file as needed for your project.

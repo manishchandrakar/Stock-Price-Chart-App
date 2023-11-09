@@ -1,0 +1,54 @@
+/* Stocks.css */
+.stock-container {
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+
+.stock-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stock-table th,
+.stock-table td {
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  text-align: center;
+}
+
+.stock-table th {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+}
+
+.stock-table tbody tr:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.stock-table tbody tr:hover {
+  background-color: #e5e5e5;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .stock-table {
+    font-size: 14px;
+  }
+}
+
+.chart-container {
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}

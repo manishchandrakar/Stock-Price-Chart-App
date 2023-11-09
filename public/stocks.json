@@ -1,0 +1,38 @@
+[
+    {
+      "symbol": "AAPL",
+      "companyName": "Apple Inc.",
+      "price": 150.00,
+      "change": 2.50,
+      "percentChange": 1.69
+    },
+    {
+      "symbol": "MSFT",
+      "companyName": "Microsoft Corporation",
+      "price": 290.00,
+      "change": 3.75,
+      "percentChange": 1.31
+    },
+    {
+      "symbol": "TSLA",
+      "companyName": "Tesla, Inc.",
+      "price": 900.00,
+      "change": -5.25,
+      "percentChange": -0.58
+    },
+    {
+      "symbol": "AMZN",
+      "companyName": "Amazon.com, Inc.",
+      "price": 3500.00,
+      "change": 20.50,
+      "percentChange": 0.59
+    },
+    {
+      "symbol": "META",
+      "companyName": "Meta Platforms, Inc.",
+      "price": 330.00,
+      "change": 1.00,
+      "percentChange": 0.30
+    }
+  ]
+  
