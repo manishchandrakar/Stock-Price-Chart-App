@@ -31,8 +31,8 @@ const Stocks = () => {
 
   return (
     <div className="stock-container">
-      <h2>Stock Data</h2>
-      {isLoading && <p className="loading-text">Loading stock data...</p>}
+      <h2>My Company  Data</h2>
+      {isLoading && <p className="loading-text">Loading  data...</p>}
       {error && <p className="error-message">Error: {error.message}</p>}
       {stockData.length > 0 && (
         <div>
